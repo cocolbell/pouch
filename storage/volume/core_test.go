@@ -1,6 +1,7 @@
 package volume
 
 import (
+	"fmt"
 	"io/ioutil"
 	"os"
 	"path"
@@ -221,11 +222,11 @@ func TestRemoveVolume(t *testing.T) {
 }
 
 func TestVolumePath(t *testing.T) {
-	// TODO
+	fmt.Print("s%", t)
 }
 
 func TestAttachVolume(t *testing.T) {
-	// TODO
+	fmt.Print("hello wor")
 }
 
 func TestDetachVolume(t *testing.T) {
